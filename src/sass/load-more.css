@@ -1,0 +1,41 @@
+.load-more,
+.submit-btn {
+  background: #0096fa;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0096fa), to(#044f7d));
+  background-image: linear-gradient(to bottom, #0096fa, #044f7d);
+  border-radius: 12px;
+  -webkit-box-shadow: 3px 3px 9px #666666;
+          box-shadow: 3px 3px 9px #666666;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.load-more:hover,
+.load-more:focus,
+.submit-btn:hover,
+.submit-btn:focus {
+  background: #044f7d;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#044f7d), to(#0096fa));
+  background-image: linear-gradient(to bottom, #044f7d, #0096fa);
+  -webkit-box-shadow: 3px 3px 9px #666666;
+          box-shadow: 3px 3px 9px #666666;
+  text-decoration: none;
+}
+
+.load-more--btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=load-more.css.map */
